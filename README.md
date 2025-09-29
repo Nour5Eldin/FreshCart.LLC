@@ -1,6 +1,6 @@
-# Shoptech Ecommerce Application 🛒
+# FreshCart Ecommerce Application 🛒
 
-The Shoptech Ecommerce Application is a robust Next.js-based platform designed for online retail. It integrates seamlessly with Sanity for content management, Clerk for user authentication, Stripe for secure payment processing. This README provides detailed instructions to set up, configure, and customize the application.
+The FreshCart Ecommerce Application is a robust Next.js-based platform designed for online retail. It integrates seamlessly with Sanity for content management, Clerk for user authentication, Stripe for secure payment processing. This README provides detailed instructions to set up, configure, and customize the application.
 
 ## Prerequisites ✅
 
