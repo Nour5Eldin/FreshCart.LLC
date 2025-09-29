@@ -6,7 +6,8 @@ export const client = createClient({
   projectId,
   dataset,
   apiVersion,
-  useCdn: true, // Set to false if statically generating pages, using ISR or tag-based revalidation
+  useCdn: false,
+  token: process.env.SANITY_API_READ_TOKEN,
   stega: {
     studioUrl:
       process.env.NODE_ENV === "production"
