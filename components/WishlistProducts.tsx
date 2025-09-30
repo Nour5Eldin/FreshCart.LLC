@@ -267,7 +267,7 @@ const WishlistProducts = () => {
               Items added to your wishlist will appear here
             </p>
           </div>
-          <Button asChild>
+          <Button asChild className="bg-tech_blue hover:bg-tech_dark_blue">
             <Link href="/shop">Continue Shopping</Link>
           </Button>
         </div>
