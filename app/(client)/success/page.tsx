@@ -24,7 +24,7 @@ const SuccessPage = () => {
   const [showAllOrders, setShowAllOrders] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const searchParams = useSearchParams();
-  const orderNumber = searchParams.get("orderNumber");
+  const sessionId = searchParams.get("session_id");
   const clearCart = useCartStore((state) => state.resetCart);
   const { user } = useUser();
   const userId = user?.id;
@@ -39,10 +39,10 @@ const SuccessPage = () => {
   }`);
 
   useEffect(() => {
-    if (orderNumber) {
+    if (sessionId) {
       clearCart();
     }
-  }, [orderNumber, clearCart]);
+  }, [sessionId, clearCart]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -106,7 +106,7 @@ const SuccessPage = () => {
             <div className="space-y-3 text-sm sm:text-base">
               <div className="flex justify-between items-center pb-2 border-b border-gray-200">
                 <span className="text-gray-600">Order Number:</span>
-                <span className="font-medium">{orderNumber}</span>
+                <span className="font-medium">{sessionId}</span>
               </div>
 
               <div className="flex justify-between items-center">
