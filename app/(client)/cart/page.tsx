@@ -418,7 +418,7 @@ const CartPage = () => {
                     <Button
                       onClick={handleCheckout}
                       disabled={loading}
-                      className="w-full rounded-md font-semibold tracking-wide mt-4"
+                      className="w-full rounded-md font-semibold tracking-wide mt-4 bg-tech_blue hover:bg-tech_blue/90"
                       size="lg"
                     >
                       {loading ? "Processing..." : "Confirm Order"}
