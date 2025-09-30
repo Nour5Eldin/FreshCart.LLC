@@ -39,7 +39,7 @@ Set up a Sanity project to manage your ecommerce content, such as products and b
 Run the following command:
 
 ```bash
-npm create sanity@latest -- --env=.env.local --create-project "Shoptech Ecommerce" --dataset production
+npm create sanity@latest -- --env=.env.local --create-project "FreshCart Ecommerce" --dataset production
 ```
 
 ### Instructions:
@@ -54,7 +54,7 @@ If you don’t have a Sanity account, follow the prompts to create one.
 ### Verification:
 
 Visit Sanity Manage.
-Select the "Shoptech Ecommerce" project to confirm the NEXT_PUBLIC_SANITY_PROJECT_ID.
+Select the "FreshCart Ecommerce" project to confirm the NEXT_PUBLIC_SANITY_PROJECT_ID.
 
 - Note: You can verify your NEXT_PUBLIC_SANITY_PROJECT_ID later by logging into https://www.sanity.io/manage, selecting the "Technox ecommerce" project, and checking the project details.
 
@@ -109,7 +109,7 @@ STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET:
 ### Notes:
 
 NEXT_PUBLIC_BASE_URL: Set to http://localhost:3000 for local development.
-You can check the production URL (https://shoptech.reactbd.com/) for demo purposes.
+You can check the production URL (https://freshcart-llc.vercel.app/) for demo purposes.
 
 ### ⚠️ Alert:
 
@@ -178,7 +178,7 @@ Update NEXT_PUBLIC_BASE_URL and revalidate all credentials before deploying to a
 
 ## License 📜
 
-The Shoptech Ecommerce Application is a commercial product licensed under ReactBD Technologies.
+The FreshCart Ecommerce Application is a commercial product licensed under NourEldin Technologies.
 
 ## Support 📩
 
