@@ -13,7 +13,7 @@ Ensure the following are installed before proceeding:
 
 ## Installation and Setup ⚙️
 
-Follow these steps to configure the Shoptech Ecommerce Application:
+Follow these steps to configure the FreshCart Ecommerce Application:
 
 ### 1. Install Dependencies
 
