@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo className="w-40 mb-4" />
             <p className="text-gray-600 text-sm">
-              Discover curated furniture collections at Shoptech, blending style
+              Discover curated furniture collections at FreshCart, blending style
               and comfort to elevate your living spaces.
             </p>
             <SocialMedia
